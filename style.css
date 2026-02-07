@@ -1,0 +1,256 @@
+
+
+.text1 {
+    text-align: center;
+    font-size: 200%;
+    margin: 3%;
+    font-weight: 700;
+    /* color: aliceblue;
+    background-color: rgb(1, 12, 113); */
+
+}
+
+/* メニュー */
+.options {
+    background-color: rgb(44, 145, 175);
+
+    margin: 20px;
+    color: aliceblue;
+    padding: 20px 10px;
+    font-size: 120%;
+    border: none;
+    
+}
+
+.options:hover {
+    background-color: rgb(1, 12, 113);
+    cursor: pointer;
+}
+
+.option-box {
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width: 600px) {
+    .option-box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* タイトル */
+.subtitle {
+    margin: 1%;
+    font-weight: 800;
+    font-size: x-large;
+    color: rgb(1, 12, 113);
+
+}
+
+/* 作品 */
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    list-style: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px;
+    padding: 10px;
+}
+@media (max-width: 900px) {
+    .works-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.work-card {
+    display: block;
+    text-decoration: none;
+}
+
+.work-thumb {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background: rgb(207, 238, 255);
+}
+
+.work-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* ← cover → contain */
+    object-position: center;
+    display: block;
+    transition: transform .3s ease;
+}
+
+.work-meta {
+    padding-top: 10px;
+    line-height: 1.35;
+    color: rgb(59, 60, 61);
+}
+
+.work-title {
+    font-size: large;
+    font-weight: 600;
+    margin: 4px 0 4px 0;
+}
+
+.work-sub {
+    font-size: medium;
+    opacity: 0.75;
+}
+
+.work-card:hover .work-thumb img {
+    transform: scale(1.1);
+}
+.work-card:hover .work-thumb video {
+    transform: scale(1.1);
+}
+.work-card:hover .work-meta {
+    color: rgb(1, 12, 113);
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* ← cover → contain */
+    object-position: center;
+    display: block;
+    transition: transform .3s ease;
+
+}
+
+/* リンク先 */
+.link-content {
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+/* コメントなし縦イラストのコンテント */
+.link-content1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10%; */
+
+}
+
+/* コメントなし正方形動画 */
+.link-content2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10%; */
+
+}
+
+
+
+.link-box1 video {
+    width: min(95vw, 95vh * 0.75);
+    height: min(95vh, 95vw / 0.75);
+
+}
+.link-box2{
+    height: min(95vh, 95vw / 0.75);
+    
+}
+
+.link-box img {
+    background: #eee;
+    width: min(95vw, 95vh * 0.75);
+    height: min(95vh, 95vw / 0.75);
+
+}
+
+.delete {
+    background-color: rgb(44, 145, 175);
+    color: aliceblue;
+    padding: 20px 20px;
+    font-size: 120%;
+    border: none;
+    position: relative;
+    /* margin: 10%; */
+    text-align: center;
+
+
+}
+
+.delete:hover {
+    background-color: blue;
+}
+
+.linklist {
+    display: flex;
+}
+
+
+.deleteposi {
+    text-align: right;
+
+}
+
+.coments {
+    display: block;
+    margin-right: 10%;
+
+}
+
+.texts {
+    margin-top: 20%;
+
+}
+
+.texts-tate {
+    margin-left: 5%;
+}
+
+/* 横向きイラスト */
+.link-boxyoko img {
+    background: #eee;
+    height: min(95vh, 95vw / 0.75);
+
+}
+
+.link-contentyoko {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+
+}
+/* スクラッチ用 */
+.scratch-responsive{
+  position: relative;
+  width: 100%;
+  max-width: 485px;      /* PCで大きくしすぎない用。不要なら消してOK */
+  aspect-ratio: 485 / 402;
+}
+.scratch-responsive iframe{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.scratch-embed{
+    text-align: center;
+}
+.tool-scratch{
+    text-align: center;
+}

@@ -151,7 +151,12 @@ video {
     /* margin-left: 10%; */
 
 }
+@media (max-width: 600px) {
+    .link-content1 {
+        margin-left: 0%;
+    }
 
+}
 /* コメントなし正方形動画 */
 .link-content2 {
     width: 100%;
@@ -202,7 +207,12 @@ video {
 .linklist {
     display: flex;
 }
-
+@media (max-width: 600px) {
+    .linklist {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 .deleteposi {
     text-align: right;
@@ -261,3 +271,4 @@ video {
     text-align: center;
 
 }
+

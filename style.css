@@ -186,6 +186,14 @@ video {
     height: min(95vh, 95vw / 0.75);
 
 }
+@media (max-width: 600px) {
+    .link-box img {
+        width: 95%;
+        height: auto;
+    }
+
+}
+
 
 .delete {
     background-color: rgb(44, 145, 175);
@@ -288,6 +296,7 @@ video {
     text-align: center;
 
 }
+
 
 
 

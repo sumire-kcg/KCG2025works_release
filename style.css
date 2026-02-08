@@ -242,7 +242,7 @@ video {
 }
 @media (max-width: 600px) {
     .link-boxyoko img {
-        width: 95%;
+        width: 95vw;
         height: auto;
     }
 
@@ -288,6 +288,7 @@ video {
     text-align: center;
 
 }
+
 
 
 

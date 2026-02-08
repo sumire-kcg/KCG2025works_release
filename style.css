@@ -132,14 +132,14 @@ video {
 }
 
 /* リンク先 */
-.link-content {
-    /* width: 100%; */
+/* .link-content {
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
-}
+} */
 
 /* コメントなし縦イラストのコンテント */
 .link-content1 {
@@ -288,6 +288,7 @@ video {
     text-align: center;
 
 }
+
 
 
 

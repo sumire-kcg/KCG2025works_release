@@ -250,6 +250,15 @@ video {
     margin-left: auto;
 
 }
+@media (max-width: 600px) {
+    .link-contentyoko {
+        margin-left: 0%;
+        margin-right: 10%;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
 /* スクラッチ用 */
 .scratch-responsive{
   position: relative;
@@ -271,6 +280,7 @@ video {
     text-align: center;
 
 }
+
 
 
 

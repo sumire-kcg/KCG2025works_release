@@ -240,6 +240,14 @@ video {
     height: min(95vh, 95vw / 0.75);
 
 }
+@media (max-width: 600px) {
+    .link-boxyoko img {
+        width: 95%;
+        height: auto;
+    }
+
+}
+
 
 .link-contentyoko {
     width: 100%;
@@ -280,6 +288,7 @@ video {
     text-align: center;
 
 }
+
 
 
 

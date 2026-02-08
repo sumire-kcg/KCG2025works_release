@@ -9,6 +9,12 @@
     background-color: rgb(1, 12, 113); */
 
 }
+@media (max-width: 600px) {
+    .subtitle {
+        font-size: large;
+        margin-left: 5%;
+    }
+}
 
 /* メニュー */
 .options {
@@ -253,4 +259,5 @@ video {
 }
 .tool-scratch{
     text-align: center;
+
 }
